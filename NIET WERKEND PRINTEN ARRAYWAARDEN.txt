@@ -1,0 +1,29 @@
+public class TestArrayVolgorde {
+
+	public static void main(String[] args) {
+		
+		int uitslagArray [];
+		uitslagArray = new int[8];
+		uitslagArray[0] = 0;		
+		uitslagArray[1] = 0;
+		uitslagArray[2] = 0;
+		uitslagArray[3] = 0;
+		uitslagArray[4] = 0;
+		uitslagArray[5] = 0;
+		uitslagArray[6] = 0;
+		uitslagArray[7] = 0;
+		
+		for (int i = 0 ; i < uitslagArray.length ; i++)
+			System.out.println("uitslagArray " + i + " " + uitslagArray[i]);
+			uitslagArray[i] = (int)(Math.random() + 10.3);  // waarom kan dit niet? i cannot be resolved to a variable
+									// ik wil random berekeningen loslaten op uitslagArray[i]
+									// en daarvan de waarde printen (regel hieronder die het ook niet doet)
+	
+			
+//			System.out.println("uitslagArray " + i ); //+ "" + uitslagArray[i]);
+		
+		
+
+	}
+}
+
